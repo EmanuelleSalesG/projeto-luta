@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.fightarea{
+    display: flex;
+    gap: 20px;
+}
+
+#char, #monster{
+    flex: 1;
+}
+
+.lifebar{
+    height: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.lifebar .bar{
+    height: inherit;
+    background-color: brown;
+    border-radius: 5px;
+    
+}
+
+.log{
+    border: 1px dotted #999;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.attackButton{
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2ms;
+}
+
+.attackButton:hover{
+    opacity: 0.9;
+}
+
+.name, .btn{
+    padding-top: 10px;
+}
+
+.log{
+    padding: 20px;
+}
+
+.log li{
+    list-style:circle;
+}
